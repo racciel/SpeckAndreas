@@ -1,0 +1,173 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("Media/Background.jpg");
+    background-attachment: fixed;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+.portret{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -5px 35%;
+    transform: scale(2.4);
+}
+
+.imgContainer{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 30% 50% 25%;
+    border: 0.4em solid rgb(49, 66, 82);
+    margin-left: 5%;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.first{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 35%;
+}
+
+.about{
+    padding: 7%;
+    background-color: rgb(49, 66, 82);
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.about span{
+    font-weight: bold;
+}
+
+.about div{
+    margin-top: 7%;
+    width: 100%;
+}
+
+.rows{
+    display: flex;
+    margin-bottom: 8%;
+}
+
+h1{
+    font-size: 250%;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.txt{
+    margin-top: 2%;
+    margin-left: 6%;
+    background-color: rgb(49, 66, 82);
+    height: 20%;
+    padding: 2%;
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.txt span{
+    color: whitesmoke;
+}
+
+.txt li{
+    margin: 1% 0%;
+}
+
+.contact{
+    background-color: rgb(49, 66, 82);
+    padding: 2%;
+    filter: drop-shadow(0 0 0.75rem black);
+    margin: 15% 0%;
+    border-radius: 10px;
+}
+
+.contact a, .contact a:hover, .contact a:visited{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.contact li{
+    list-style-type: none;
+    margin: 5% 0% 2% 5%;
+}
+
+.contact p{
+    padding: 0.5% 0%;
+}
+
+.contact span{
+    font-weight: bold;
+}
+
+.other{
+    padding: 2% 2% 2% 5%;
+    background-color: slategray;
+    font-size: 120%;
+}
+
+.other h3{
+    text-decoration: underline;
+}
+
+.other a{
+    color: whitesmoke;
+}
+
+.other p{
+    margin-top: 2%;
+    width: auto;
+}
+
+.more{
+    display: flex;
+}
+
+.anotherone{
+    margin-top: 2%;
+    width: 70%;
+}
+
+.anotherone p{
+    margin-bottom: 5%;
+}
+
+.imgContainer2 img{
+    margin-top: 5%;
+    border: 3px solid rgb(49, 66, 82);
+    padding: 0;
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+    float: right;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.shadow{
+    padding: 3% 5%;
+    margin: 7% 0%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.shadow div{
+    display: flex;
+    margin-top: 5%;
+}
+
+.shadow div img{
+    height: 200px;
+    width: auto;
+    margin: auto;
+}
